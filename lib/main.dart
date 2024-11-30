@@ -94,7 +94,7 @@ class _ChatScreenState extends State<ChatScreen> {
       });
 
       setState(() {
-        messages.add("Você: $message");
+        // messages.add("Você: $message");
       });
 
       messageController.clear();
